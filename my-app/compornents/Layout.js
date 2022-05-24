@@ -1,5 +1,6 @@
 import Head from "next/head";
 const name = "koheiNohara"
+export const siteTitle = "Next.js Blog"
 
 function Layout() {
     return (
