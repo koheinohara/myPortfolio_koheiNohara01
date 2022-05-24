@@ -2,7 +2,7 @@ import Head from "next/head";
 const name = "koheiNohara"
 export const siteTitle = "Next.js Blog"
 
-function Layout() {
+function Layout( {children} ) {
     return (
         <div>
             <Head>
@@ -12,6 +12,7 @@ function Layout() {
                 <img src="/images/profile.jpeg"></img>
                 <h1>{name}</h1>
             </headerc>
+            <main>{children}</main>
         </div>
     );
 }

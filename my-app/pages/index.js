@@ -10,6 +10,8 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <Layout></Layout> 
+    <Layout>
+      ここがchildrenの中身になる
+    </Layout> 
   );
 }
