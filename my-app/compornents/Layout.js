@@ -1,4 +1,5 @@
 import Head from "next/head";
+const name = "koheiNohara"
 
 function Layout() {
     return (
@@ -8,7 +9,7 @@ function Layout() {
             </Head>
             <headerc>
                 <img src="/images/profile.jpeg"></img>
-                <h1>koheiNohara</h1>
+                <h1>{name}</h1>
             </headerc>
         </div>
     );
