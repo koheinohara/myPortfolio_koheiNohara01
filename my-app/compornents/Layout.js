@@ -6,7 +6,7 @@ export const siteTitle = "Next.js Blog"
 
 function Layout( {children} ) {
     return (
-        <div classname={styles.container}>
+        <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico"></link>
             </Head>
