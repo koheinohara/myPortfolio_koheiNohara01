@@ -10,7 +10,7 @@ function Layout( {children} ) {
             <Head>
                 <link rel="icon" href="/favicon.ico"></link>
             </Head>
-            <headerc>
+            <headerc className={styles.header}>
                 <img src="/images/profile.jpeg"></img>
                 <h1>{name}</h1>
             </headerc>
